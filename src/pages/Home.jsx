@@ -23,7 +23,7 @@ function Home() {
         whileInView="show"
         viewport={{ once: true }}
         className="flex flex-col items-center justify-center text-center gap-5 
-                   px-4 md:px-10 py-20 md:py-32"
+                   px-4 md:px-10 py-20 md:py-32 "
         style={{
           backgroundImage: `url(${heroBackground})`,
           backgroundSize: "cover",

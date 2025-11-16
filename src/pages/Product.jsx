@@ -119,13 +119,13 @@ export default function Product() {
     list.filter((item) => item.toLowerCase().includes(search.toLowerCase()));
 
   return (
-    <div className="py-16 px-6 lg:px-20 bg-white">
+    <div className="mt-5 py-16 px-6 lg:px-20 bg-white">
       {/* Title */}
       <div className="flex flex-col items-center text-center mb-12">
         <h2 className="text-3xl lg:text-4xl font-semibold text-stone-800 tracking-wide">
           Daftar Produk Utama
         </h2>
-        <div className="w-24 h-1 bg-stone-300 rounded-full mt-3"></div>
+        <div className="w-24 h-1.5 bg-linear-to-r from-stone-300 to-stone-400 mt-3 rounded-full" />
       </div>
 
       {/* Sticky Search */}

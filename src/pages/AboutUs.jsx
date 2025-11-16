@@ -3,7 +3,7 @@ import heroBackground from "/hero-background.jpg";
 
 export default function AboutUs() {
   return (
-    <div className="pt-24 px-6 lg:px-20 bg-white">
+    <div className="mt-5 pt-20 px-6 lg:px-20 bg-white">
       
       {/* Section Header */}
       <div className="flex flex-col items-center text-center mb-16">

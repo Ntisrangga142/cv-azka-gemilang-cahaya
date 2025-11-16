@@ -18,7 +18,7 @@ function Contact() {
           <h2 className="text-2xl lg:text-3xl font-semibold tracking-wide">
             Hubungi Kami
           </h2>
-          <hr className="w-28 h-0.5 bg-stone-300 border-0" />
+          <div className="w-24 h-1.5 bg-linear-to-r from-stone-300 to-stone-400 mt-3 rounded-full" />
         </motion.div>
 
         {/* Subtext */}

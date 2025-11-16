@@ -1,9 +1,5 @@
 import { Link } from "react-router";
 
-function openGoogleDrive() {
-  window.open(import.meta.env.VITE_GOOGLE_DRIVE_URL, "_blank");
-}
-
 function ListProduk() {
   return (
     <Link
