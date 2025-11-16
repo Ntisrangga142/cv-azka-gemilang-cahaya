@@ -52,10 +52,10 @@ function ValueSwitch() {
       <div className="w-full max-w-4xl mt-5 leading-relaxed text-gray-700 text-base sm:text-lg bg-[#fafafb] px-4 sm:px-6 lg:px-8 py-4 sm:py-6 rounded-md shadow-sm">
         {selected === "value1" && (
           <div className="text-center sm:text-left">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">
+            <h3 className="md:text-center text-lg sm:text-xl font-bold mb-2">
               Kualitas Terjamin
             </h3>
-            <p>
+            <p className="text-center md:text-left">
               Kami selalu memastikan setiap produk sesuai standar melalui pengecekan fisik dan kelengkapan Certificate of Analysis (COA) dari pabrik dalam maupun luar negeri, sehingga kualitas dan spesifikasi produk tetap konsisten.
             </p>
           </div>
@@ -63,10 +63,10 @@ function ValueSwitch() {
 
         {selected === "value2" && (
           <div className="text-center sm:text-left">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">
+            <h3 className="md:text-center text-lg sm:text-xl font-bold mb-2">
               Responsif & Andal dalam Distribusi
             </h3>
-            <p>
+            <p className="text-center md:text-left">
               Dengan pengalaman panjang dan dukungan tim pemasaran berpengalaman, kami menghadirkan layanan cepat, stok terjaga, serta distribusi yang luas mulai dari Jabodetabek hingga berbagai daerah di Indonesia.
             </p>
           </div>
@@ -74,10 +74,10 @@ function ValueSwitch() {
 
         {selected === "value3" && (
           <div className="text-center sm:text-left">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">
+            <h3 className="md:text-center text-lg sm:text-xl font-bold mb-2">
               Komitmen pada Kepercayaan Pelanggan
             </h3>
-            <p>
+            <p className="text-center md:text-left">
               Kepercayaan pelanggan adalah prioritas kami. Kami memberikan informasi produk yang lengkap, transparan, dan akurat untuk memastikan kerja sama yang efektif dan memenuhi kebutuhan bahan kimia pelanggan tanpa hambatan.
             </p>
           </div>
