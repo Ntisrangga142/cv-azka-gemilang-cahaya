@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { NavLink, Link } from "react-router";
 import { Menu, X } from "lucide-react";
 import logo from "/logo.png";
 
@@ -27,7 +27,9 @@ export default function Navigation() {
       <div className="flex items-center justify-between px-6 py-5 lg:px-20">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <img src={logo} className="w-20" alt="Logo" />
+          <Link to="/">
+            <img src={logo} className="w-20" alt="Logo" />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
