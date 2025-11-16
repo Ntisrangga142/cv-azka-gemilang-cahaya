@@ -30,7 +30,7 @@ function Home() {
           backgroundPosition: "center",
         }}
       >
-        <div className="bg-neutral-300/60 backdrop-blur-md rounded-3xl 
+        <div className="bg-neutral-300/60 backdrop-grayscale-50 rounded-3xl 
                         py-10 md:py-16 px-6 md:px-12 max-w-3xl w-full">
           <h3 className="text-lg md:text-xl font-semibold tracking-wide">
             WE ARE A CHEMICALS DISTRIBUTOR
