@@ -13,7 +13,7 @@ function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="flex flex-col items-center text-center gap-5"
+          className="flex flex-col items-center text-center gap-1"
         >
           <h2 className="text-2xl lg:text-3xl font-semibold tracking-wide">
             Hubungi Kami

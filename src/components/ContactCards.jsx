@@ -12,10 +12,11 @@ export default function ContactCards() {
   };
 
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 px-5 py-10">
-      {/* Card Alamat */}
+    <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8 px-5 py-10">
+      {/* Card Alamat Kantor */}
       <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-sm">
         <MapPin className="w-10 h-10 text-blue-400 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Alamat Kantor</h3>
         <p className="font-semibold leading-relaxed">
           Cluster Blossomvile <br />
           JL. Blossomville 8 Blok W11/3
@@ -27,6 +28,18 @@ export default function ContactCards() {
           Senin - Jumat: 9:00 - 17:00 WIB
         </p>
         <p className="text-sm text-gray-600">Sabtu dan Minggu: Tutup</p>
+      </div>
+
+      {/* Card Alamat Gudang */}
+      <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-sm">
+        <MapPin className="w-10 h-10 text-blue-400 mb-4" />
+        <h3 className="text-lg font-semibold mb-2">Alamat Gudang</h3>
+        <p className="font-semibold leading-relaxed">
+          Jln. Hayam Wuruk Raya no 30
+          <br />
+          Kel. Cibodas, Kec. Cibodas, Kota Tangerang<br />
+          151388 <br /> Banten - Indonesia
+        </p>
       </div>
       
       {/* Card Telepon */}
