@@ -19,7 +19,7 @@ function getNavLinkClass({ isActive }) {
 
 function Navigation() {
   return (
-    <nav className="flex items-center justify-between shadow-md shadow-gray-300 py-5 px-10 bg-white">
+    <nav className="flex items-center justify-center shadow-md shadow-gray-300 py-7.5 px-25 bg-white">
       {/* Logo Section */}
       <div className="w-full flex flex-row items-center gap-5">
         <img src={logo} className="w-25" alt="Logo" />
