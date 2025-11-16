@@ -5,6 +5,12 @@ export default function ContactCards() {
   const phone2 = import.meta.env.VITE_PHONE_2;
   const supportEmail = import.meta.env.VITE_SUPPORT_EMAIL;
 
+    const phoneNumber = import.meta.env.VITE_PHONE_WA; // Nomor WA (format internasional, tanpa +)
+
+  const handleClick = () => {
+    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  };
+
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 px-5 py-10">
       {/* Card Alamat */}
@@ -31,8 +37,8 @@ export default function ContactCards() {
         <h3 className="text-lg font-semibold mb-5">{phone2}</h3>
         <p className="text-sm text-gray-600">Bantuan 24/7 - Online 24 jam</p>
         <a
-          href={`tel:${phone1}`}
-          className="text-sm text-blue-600 underline mt-1"
+          onClick={handleClick}
+          className="text-sm text-blue-600 underline mt-1 cursor-pointer"
         >
           Hubungi Kami Sekarang
         </a>
