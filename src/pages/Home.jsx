@@ -34,7 +34,7 @@ function Home() {
             WE ARE A CHEMICALS DISTRIBUTOR
           </h3>
 
-          <h1 className="font-bold text-5xl text-wrap w-150 leading-20 backdrop-grayscale-100">
+          <h1 className="font-bold text-5xl text-wrap w-150 leading-20 mb-5">
             Easy to Get Chemicals With Us
           </h1>
 
