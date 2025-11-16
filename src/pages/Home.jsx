@@ -22,19 +22,21 @@ function Home() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center text-center gap-5 px-10 py-25"
+        className="flex flex-col items-center justify-center text-center gap-5 
+                   px-4 md:px-10 py-20 md:py-32"
         style={{
           backgroundImage: `url(${heroBackground})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="bg-neutral-300/60 backdrop-grayscale-100 rounded-3xl py-30 px-50">
-          <h3 className="text-xl font-semibold tracking-wide">
+        <div className="bg-neutral-300/60 backdrop-blur-md rounded-3xl 
+                        py-10 md:py-16 px-6 md:px-12 max-w-3xl w-full">
+          <h3 className="text-lg md:text-xl font-semibold tracking-wide">
             WE ARE A CHEMICALS DISTRIBUTOR
           </h3>
 
-          <h1 className="font-bold text-5xl text-wrap w-150 leading-20 mb-5">
+          <h1 className="font-bold text-3xl md:text-5xl leading-tight md:leading-[3.5rem] mt-3 mb-5">
             Easy to Get Chemicals With Us
           </h1>
 
@@ -48,9 +50,10 @@ function Home() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center text-center gap-5 px-10 pt-10 pb-10 mt-2"
+        className="flex flex-col items-center justify-center text-center 
+                  px-4 md:px-10 py-10"
       >
-        <h2 className="text-2xl font-semibold tracking-wide">
+        <h2 className="text-xl md:text-2xl font-semibold tracking-wide">
           CV. AZKA CAHAYA GEMILANG
         </h2>
       </motion.div>
@@ -61,25 +64,26 @@ function Home() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center text-center gap-5 px-10"
+        className="flex flex-col items-center justify-center text-center 
+                   px-4 md:px-10 max-w-4xl mx-auto"
       >
-        <h2 className="text-2xl font-semibold tracking-wide">Visi & Misi</h2>
+        <h2 className="text-xl md:text-2xl font-semibold tracking-wide">Visi & Misi</h2>
 
-        <div className="flex items-center justify-center mb-5">
-          <hr className="w-7.5 h-0.5 border-stone-300 mr-2.5" />
-          <img src={visionIcon} alt="Vision Icon" className="w-7.5 opacity-50" />
-          <hr className="w-7.5 h-0.5 border-stone-300 ml-2.5" />
+        <div className="flex items-center justify-center mb-5 mt-2">
+          <hr className="w-10 md:w-16 h-0.5 border-stone-300 mr-3" />
+          <img src={visionIcon} alt="Vision Icon" className="w-6 md:w-8 opacity-50" />
+          <hr className="w-10 md:w-16 h-0.5 border-stone-300 ml-3" />
         </div>
 
         <VisiMisiSwitch />
 
         {/* VALUE */}
-        <h2 className="text-2xl font-semibold tracking-wide mt-10">Value</h2>
+        <h2 className="text-xl md:text-2xl font-semibold tracking-wide mt-10">Value</h2>
 
-        <div className="flex items-center justify-center mb-5">
-          <hr className="w-7.5 h-0.5 border-stone-300 mr-2.5" />
-          <img src={valueIcon} alt="Value Icon" className="w-7.5 opacity-50" />
-          <hr className="w-7.5 h-0.5 border-stone-300 ml-2.5" />
+        <div className="flex items-center justify-center mb-5 mt-2">
+          <hr className="w-10 md:w-16 h-0.5 border-stone-300 mr-3" />
+          <img src={valueIcon} alt="Value Icon" className="w-6 md:w-8 opacity-50" />
+          <hr className="w-10 md:w-16 h-0.5 border-stone-300 ml-3" />
         </div>
 
         <ValueSwitch />
@@ -90,10 +94,11 @@ function Home() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="flex flex-col items-center justify-center text-center gap-5 px-10 mt-10"
+          className="flex flex-col items-center justify-center text-center 
+                     px-4 md:px-10 mt-10 max-w-4xl mx-auto"
         >
-          <h2 className="text-2xl font-semibold tracking-wide">Keunggulan Kami</h2>
-          <hr className="w-25 h-0.5 border-stone-300" />
+          <h2 className="text-xl md:text-2xl font-semibold tracking-wide">Keunggulan Kami</h2>
+          <hr className="w-32 md:w-40 h-0.5 border-stone-300 mt-2 mb-5" />
 
           <KeunggulanKami />
         </motion.div>

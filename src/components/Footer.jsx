@@ -2,9 +2,15 @@ function Footer() {
   return (
     <footer className="w-full bg-[#fafafb] border-t border-gray-200 mt-10">
       <div className="max-w-7xl mx-auto px-5 py-10">
-        {/* GRID (1 kolom logo + 3 kolom info) */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-25">
-
+        
+        {/* GRID RESPONSIVE */}
+        <div className="
+          grid 
+          grid-cols-1 
+          sm:grid-cols-2 
+          lg:grid-cols-4 
+          gap-10
+        ">
           {/* LOGO */}
           <div className="flex flex-col gap-3">
             <img
@@ -13,13 +19,15 @@ function Footer() {
               className="w-32 select-none"
             />
             <p className="text-sm text-gray-600 font-bold">
-              CV AZKA CAHAYA GEMILANG  
+              CV AZKA CAHAYA GEMILANG
             </p>
           </div>
 
           {/* PERUSAHAAN */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-lg font-semibold text-[#2b323a]">Alamat Perusahaan</h3>
+            <h3 className="text-lg font-semibold text-[#2b323a]">
+              Alamat Perusahaan
+            </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               Cluster Blossomvile  
               JL. Blossom ville 8 Blok W11/e  
@@ -30,7 +38,9 @@ function Footer() {
 
           {/* GUDANG */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-lg font-semibold text-[#2b323a]">Alamat Gudang</h3>
+            <h3 className="text-lg font-semibold text-[#2b323a]">
+              Alamat Gudang
+            </h3>
             <p className="text-sm text-gray-700 leading-relaxed">
               Jln. Hayam Wuruk Raya No. 30  
               Kel. Cibodas, Kec. Cibodas  
